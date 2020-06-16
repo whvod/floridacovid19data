@@ -1,4 +1,7 @@
 cp ../COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv florida.csv
 
 vim -c "normal! @z" -c "normal! @a" -c "normal! 100@b"  -c "wq" florida.csv
+git add -A
+git commit -m "update"
+git push origin master
 
